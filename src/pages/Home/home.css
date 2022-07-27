@@ -2,9 +2,12 @@ html {
     background-color:antiquewhite;
 }
 
-.introducao {
-    max-width: 1200;
+.introducao-projeto h1 {
+    max-width: 1000;
+    text-decoration: none;
     margin-bottom: 5rem;
+    text-align: center;
+    font-size: 22px;
 }
 .lista-filmes{
     max-width: 800px;

@@ -39,7 +39,7 @@ function Home() {
     return (
         
         <div className='container'>
-            <div className='introducao'>
+            <div className='introducao-projeto'>
                 <h1>O projeto BasicFlix é um projeto criado com React e Axios para o consumo de uma <a href='https://api.themoviedb.org'>API externa</a> atualizada diariamente.
                  <br/>
                  Criada por <a target='blank' href='https://portfolio-felipelissa.vercel.app/'>Felipe Lissa - Portfólio</a></h1>
