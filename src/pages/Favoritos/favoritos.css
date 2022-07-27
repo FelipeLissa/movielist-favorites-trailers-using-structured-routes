@@ -7,10 +7,12 @@
 
 .meus-filmes h1{
     margin-bottom: 28px;
+    color: white;
 }
 .meus-filmes span{
     font-style: italic;
     font-size: 18px;
+    color: white;
 }
 .meus-filmes ul{
     width: 720px;
