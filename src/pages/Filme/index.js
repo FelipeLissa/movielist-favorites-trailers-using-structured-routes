@@ -35,7 +35,7 @@ function Filme() {
         loadFilme()
 
         return () => {
-            console.log("componente desmotado");
+            console.log("componente desmontado");
         }
 
     }, [navigate, id])
