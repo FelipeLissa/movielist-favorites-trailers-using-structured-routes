@@ -17,7 +17,7 @@ function Home() {
                 params:{
                     api_key: "2c89f84a5cf34979dcf5918de3a5157c",
                     language: "pt-BR",
-                    page: 1,
+                    page: 1,    
                 }
             })
             setFilmes(response.data.results.slice(0, 10))
@@ -40,7 +40,7 @@ function Home() {
         
         <div className='container'>
             <div className='introducao-projeto'>
-                <h1>Essa é uma api simples consumindo uma <a href='https://api.themoviedb.org'>API externa</a> através da Biblioteca Axios.
+                <h1>Este projeto é uma pequena demonstração de uma api feita com Next que consome e se atualiza por uma api externa.Esta <a href='https://api.themoviedb.org'>API externa</a> é consumada através da Biblioteca Axios.
                  <br/>
                  <img src='android-chrome-192x192.png'></img>
                  <br/>
@@ -48,7 +48,7 @@ function Home() {
                 </h1>
             </div>
             <div className='lista-filmes'>
-                {filmes.map((filme) =>{
+                {filmes.map( (filme) =>{
                     return (
                         <article key={filme.id}>
                             <strong>{filme.title}</strong>
